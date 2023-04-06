@@ -18,7 +18,7 @@ const Navbar = () => {
       z-20
       bg-primary
     >
-      <div className="w-ful flex justify-between items-center max-w-7xl mx-auto">
+      <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
         <Link
           to="/"
           className="flex items-center gap-2"
@@ -27,11 +27,15 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt="logo" className="w-1 h-1 object-contain" />
-          <p>
-            Dastine <span>Jhay</span>
+          <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
+          <p className="text-white text-[18px] font-bold cursor-pointer">
+            DJHAY<span className="sm:block hidden"></span>
           </p>
         </Link>
+        <p className="text-red-500">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam,
+          pariatur!
+        </p>
       </div>
     </nav>
   );
