@@ -27,7 +27,10 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
+          <img src={logo} alt="logo" className="w-1 h-1 object-contain" />
+          <p>
+            Dastine <span>Jhay</span>
+          </p>
         </Link>
       </div>
     </nav>
