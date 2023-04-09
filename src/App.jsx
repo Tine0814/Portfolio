@@ -4,7 +4,7 @@ import {
   Contact,
   Experience,
   Feedbacks,
-  Hero,
+  Profile,
   Navbar,
   Tech,
   Works,
@@ -17,7 +17,7 @@ const App = () => {
       <div className="realative z-0 bg-primary">
         <div className=" mt-2 bg-cover bg-no-repeat bg-center">
           <Navbar />
-          <Hero />
+          <Profile />
         </div>
         <About />
         <Experience />
